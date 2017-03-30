@@ -4,10 +4,10 @@ public class Review {
   private String reviewReview;
   private String reviewPrice;
 
-  public Review(String revGrade, String revReview, String revPrice) {
-    reviewGrade = revGrade;
-    reviewReview = revReview;
-    reviewPrice = revPrice;
+  public Review(String reviewGrade, String reviewReview, String reviewPrice) {
+    this.reviewGrade = reviewGrade;
+    this.reviewReview = reviewReview;
+    this.reviewPrice = reviewPrice;
   }
 
   public String getReviewGrade() {
