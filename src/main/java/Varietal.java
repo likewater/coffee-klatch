@@ -8,7 +8,7 @@ public class Varietal {
   private int regionId;
   private boolean completed;
 
-  public Varietal(String varietalName, int categoryId) {
+  public Varietal(String varietalName, int regionId) {
     this.varietalName = varietalName;
     this.regionId = regionId;
     completed = false;
